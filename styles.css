@@ -113,9 +113,9 @@
     .encourage {
     	background:#D9D9DC;
     	color:black;
-      margin: 3px;
+      margin: 1px;
       border: 1px solid #D9D9DC;
-      font-size: 16px;
+      font-size: 15px;
       border-radius: 20px;
     }
     body {
@@ -125,8 +125,8 @@
     .close {
       background:#0664a8;
       color: white;
-      margin: 3px;
+      margin: 1px;
       border: 1px solid #0664a8;
-      font-size: 16px;
+      font-size: 15px;
       border-radius: 20px;
   }
