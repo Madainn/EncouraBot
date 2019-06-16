@@ -1,0 +1,125 @@
+  body {
+    background-color: #D8D8D8
+  }
+  body {
+  	font-family:sans-serif;
+  	font-size: 20px;
+  	font-weight: normal;
+  	margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    max-width: 80%;
+    margin: 50px auto;
+    display: flex;
+  }
+  section {
+    background: white;
+    width: 50%;
+    margin: auto;
+    margin-top: auto;
+    padding: 0px 10px;
+    border-radius: 20px;
+    height: auto;
+  }
+  .message {
+    font-family: sans-serif;
+    color: #007999;
+  }
+  p {
+    max-width: none;
+    word-wrap: break-word;
+    margin-bottom: 12px;
+    line-height: 24px;
+  	padding:10px 20px;
+    border-radius:20px;
+  }
+  .EncouraBot{
+    color: black;
+    background-color: #BDBDBD;
+    text-align: center;
+    width: 100%;
+    line-height: 40px;
+    border-radius:20px;
+  }
+  .from-me {
+  	color:white;
+  	background:#0B93F6;
+    text-align: right;
+    width: 40%;
+    float: right;
+  }
+  .from-them {
+  	background:#E5E5EA;
+  	color:black;
+    text-align: left;
+    width: 50%;
+    float: left;
+  }
+  .message {
+  	background:#E5E5EA;
+  	color:black;
+    text-align: left;
+    width: 50%;
+    float: left;
+  }
+  .encourage {
+  	background:#D9D9DC;
+  	color:black;
+    margin: 3px;
+    border: 1px solid #D9D9DC;
+    font-size: 20px;
+    border-radius: 20px;
+  }
+  .close {
+  	background:#0664a8;
+  	color: white;
+    margin: 3px;
+    border: 1px solid #0664a8;
+    font-size: 20px;
+    border-radius: 20px;
+  }
+
+  @media screen and (max-width: 1025px) {
+    section {
+      width: 70%;
+    }
+    .EncouraBot{
+      color: black;
+      background-color: #BDBDBD;
+      text-align: center;
+      width: 100%;
+      line-height: 40px;
+      border-radius:20px;
+      font-size: 25px;
+    }
+    body {
+      font-family:sans-serif;
+      font-size: 20px;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    section {
+      width: 90%;
+    }
+    .EncouraBot{
+      color: black;
+      background-color: #BDBDBD;
+      text-align: center;
+      width: 100%;
+      line-height: 40px;
+      border-radius:20px;
+      font-size: 19px;
+    }
+    .encourage {
+    	background:#D9D9DC;
+    	color:black;
+      margin: 3px;
+      border: 1px solid #D9D9DC;
+      font-size: 16px;
+      border-radius: 20px;
+    }
+    body {
+      font-family:sans-serif;
+      font-size: 16px;
+    }
+  }
